@@ -1,0 +1,159 @@
+/* ===== 校园二手集市 · 主题色 ===== */
+/* 主色调：暖橙 - 市集氛围 */
+:root {
+  --primary: #E67E22;
+  --primary-hover: #D35400;
+  --primary-active: #C0392B;
+  --primary-light: #FDEBD0;
+  --primary-bg: #FFF8F0;
+  --success: #27AE60;
+  --warning: #F39C12;
+  --danger: #E74C3C;
+  --info: #7F8C8D;
+}
+
+/* 全局背景 */
+html, body, #app {
+  background-color: var(--primary-bg) !important;
+}
+
+/* ---- 按钮 ---- */
+.el-button--primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.el-button--primary:hover,
+.el-button--primary:focus {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
+.el-button--primary:active {
+  background-color: var(--primary-active) !important;
+  border-color: var(--primary-active) !important;
+}
+.el-button--primary.is-plain {
+  color: var(--primary) !important;
+  background: var(--primary-light) !important;
+  border-color: var(--primary) !important;
+}
+.el-button--primary.is-plain:hover {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+/* ---- 标签页 ---- */
+.el-tabs--border-card > .el-tabs__header {
+  background-color: #fff;
+  border-bottom: 2px solid var(--primary);
+}
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  color: var(--primary) !important;
+  border-top: 2px solid var(--primary) !important;
+}
+.el-tabs--border-card > .el-tabs__header .el-tabs__item:hover {
+  color: var(--primary-hover) !important;
+}
+
+/* ---- 链接 ---- */
+a, .app-name a, .router-link-active {
+  color: var(--primary) !important;
+}
+a:hover {
+  color: var(--primary-hover) !important;
+}
+
+/* ---- 分页 ---- */
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: var(--primary) !important;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: var(--primary) !important;
+}
+
+/* ---- 输入框/选择器 焦点 ---- */
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+  border-color: var(--primary) !important;
+}
+.el-select .el-input.is-focus .el-input__inner {
+  border-color: var(--primary) !important;
+}
+
+/* ---- 标签 ---- */
+.el-tag--primary {
+  background-color: var(--primary-light) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+/* ---- 步骤条（支付成功页等） ---- */
+.el-steps .el-step__head.is-finish,
+.el-steps .el-step__title.is-finish {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+/* ---- 头像悬浮效果 ---- */
+.el-avatar {
+  border: 2px solid var(--primary-light);
+}
+
+/* ---- 自定义卡片点缀 ---- */
+.item-card .item-tag {
+  background: rgba(230, 126, 34, 0.85) !important;
+}
+
+/* ---- 高亮文字 ---- */
+.highlight {
+  color: var(--primary) !important;
+}
+
+/* ---- 头部 ---- */
+.header {
+  border-bottom: 2px solid var(--primary) !important;
+}
+.app-name a i {
+  color: var(--primary) !important;
+}
+
+/* ---- 底部 ---- */
+.footer-logo i,
+.footer-logo span {
+  color: var(--primary) !important;
+}
+
+/* ---- 图标强调色 ---- */
+.page-header {
+  background: linear-gradient(to right, var(--primary-light), #FFF) !important;
+}
+
+/* ---- 加载进度/动画 ---- */
+.el-loading-spinner .path {
+  stroke: var(--primary) !important;
+}
+
+/* ---- 下拉菜单活跃项 ---- */
+.el-dropdown-menu__item:not(.is-disabled):hover {
+  background-color: var(--primary-light) !important;
+  color: var(--primary) !important;
+}
+
+/* ---- 级联选择器 ---- */
+.el-cascader-menu__item.is-active {
+  color: var(--primary) !important;
+}
+
+/* ---- 表格排序/选中 ---- */
+.el-table__body tr.current-row > td {
+  background-color: var(--primary-light) !important;
+}
+
+/* ---- 管理后台 ---- */
+.el-menu-item.is-active {
+  color: var(--primary) !important;
+  border-left: 3px solid var(--primary) !important;
+}
+.el-menu-item:hover {
+  background-color: var(--primary-light) !important;
+}
