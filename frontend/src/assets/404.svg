@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" fill="none">
+  <rect x="30" y="30" width="60" height="80" rx="8" fill="#E8F4FD" stroke="#1482F0" stroke-width="2" opacity="0.6"/>
+  <rect x="90" y="20" width="60" height="100" rx="8" fill="#E8F4FD" stroke="#1482F0" stroke-width="2"/>
+  <rect x="150" y="40" width="60" height="70" rx="8" fill="#E8F4FD" stroke="#1482F0" stroke-width="2" opacity="0.6"/>
+  <text x="120" y="85" font-family="Arial" font-size="22" font-weight="bold" fill="#1482F0" text-anchor="middle">404</text>
+  <text x="150" y="170" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">页面未找到</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60" fill="none">
+  <rect width="100" height="60" rx="4" fill="#F3F4F7"/>
+  <rect x="35" y="20" width="30" height="24" rx="4" fill="#BAC0CD" opacity="0.5"/>
+  <text x="50" y="33" font-family="Arial" font-size="10" fill="#FFF" text-anchor="middle">暂无</text>
+  <text x="50" y="45" font-family="Arial" font-size="10" fill="#FFF" text-anchor="middle">图片</text>
+</svg>

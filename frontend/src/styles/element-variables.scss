@@ -1,0 +1,52 @@
+.avatar-uploader .el-upload {
+  border-radius: 4px !important;
+  background: #FCFCFC;
+}
+
+.avatar-uploader .avatar-uploader-icon {
+  background: #FCFCFC;
+}
+
+.el-dialog {
+  border-radius: 8px;
+}
+
+.el-dialog__header {
+  background: #FBFBFA;
+  border-radius: 8px 8px 0 0;
+  border: none;
+}
+
+.tableColumn-status {
+  display: inline-block;
+  width: 54px;
+  height: 24px;
+  background: #E2FBDE;
+  border-radius: 12px;
+  color: #1DC779;
+  font-size: 12px;
+  text-align: center;
+  line-height: 24px;
+  &.stop-use {
+    background: #FDE8E8;
+    color: #F56C6C;
+  }
+}
+
+.blueBug {
+  color: #409EFF !important;
+}
+
+.delBut {
+  color: #F56C6C !important;
+}
+
+.non {
+  cursor: default !important;
+}
+
+.normal-btn {
+  background: #333333;
+  color: white;
+  margin-left: 20px;
+}

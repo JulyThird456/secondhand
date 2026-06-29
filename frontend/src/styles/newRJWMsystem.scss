@@ -1,0 +1,102 @@
+// New system specific styles
+.el-table th.el-table__cell {
+  background-color: #FAFAFB !important;
+  color: #333;
+  font-weight: 500;
+}
+
+.el-table__body tr.current-row > td {
+  background-color: #FFF8E7 !important;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: #FAFAFB;
+}
+.noPermission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.pageList {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.continue {
+  background-color: #FFC200 !important;
+  border-color: #FFC200 !important;
+  color: #333 !important;
+}
+
+.continue.is-disabled,
+.continue.is-disabled:hover {
+  background-color: #f5d876 !important;
+  border-color: #f5d876 !important;
+}
+
+.el-message-box__btns .el-button--primary {
+  background-color: #FFC200 !important;
+  border-color: #FFC200 !important;
+  color: #333 !important;
+}
+
+.el-button--primary {
+  background-color: #FFC200 !important;
+  border-color: #FFC200 !important;
+  color: #333 !important;
+}
+
+.el-button.el-button--primary:hover {
+  background-color: #e6af00 !important;
+  border-color: #e6af00 !important;
+}
+
+.el-button.el-button--primary.is-disabled,
+.el-button.el-button--primary.is-disabled:hover {
+  background-color: #f5d876 !important;
+  border-color: #f5d876 !important;
+  color: #a0a0a0 !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #FFC200 !important;
+  color: #333 !important;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #FFC200 !important;
+  background: #FFC200 !important;
+}
+
+.el-radio__input.is-checked + .el-radio__label {
+  color: #333 !important;
+}
+
+.el-switch.is-checked .el-switch__core {
+  border-color: #FFC200 !important;
+  background-color: #FFC200 !important;
+}
+
+.el-select .el-input.is-focus .el-input__wrapper {
+  box-shadow: 0 0 0 1px #FFC200 inset !important;
+}
+
+.el-select .el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px #FFC200 inset !important;
+}
+
+.el-date-editor .el-input__wrapper {
+  &.is-focus {
+    box-shadow: 0 0 0 1px #FFC200 inset !important;
+  }
+}
+
+.el-textarea__inner:focus {
+  box-shadow: 0 0 0 1px #FFC200 inset !important;
+}
+
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px #FFC200 inset !important;
+}

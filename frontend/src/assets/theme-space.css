@@ -1,0 +1,117 @@
+/* ===== 个人空间 · 主题色 ===== */
+:root {
+  --primary: #4A90D9;
+  --primary-hover: #357ABD;
+  --primary-active: #2C6AA0;
+  --primary-light: #D6E8FF;
+  --primary-bg: #F5F9FF;
+  --success: #27AE60;
+  --warning: #F39C12;
+  --danger: #E74C3C;
+  --info: #7F8C8D;
+}
+.project-space .el-button--primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.project-space .el-button--primary:hover,
+.project-space .el-button--primary:focus {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
+.project-space .el-button--primary:active {
+  background-color: var(--primary-active) !important;
+  border-color: var(--primary-active) !important;
+}
+.project-space .el-button--primary.is-plain {
+  color: var(--primary) !important;
+  background: var(--primary-light) !important;
+  border-color: var(--primary) !important;
+}
+.project-space .el-button--primary.is-plain:hover {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+.project-space .el-tabs--border-card > .el-tabs__header {
+  background-color: #fff;
+  border-bottom: 2px solid var(--primary);
+}
+.project-space .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  color: var(--primary) !important;
+  border-top: 2px solid var(--primary) !important;
+}
+.project-space .el-tabs--border-card > .el-tabs__header .el-tabs__item:hover {
+  color: var(--primary-hover) !important;
+}
+.project-space a, .project-space .app-name a, .project-space .router-link-active {
+  color: var(--primary) !important;
+}
+.project-space a:hover {
+  color: var(--primary-hover) !important;
+}
+.project-space .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: var(--primary) !important;
+}
+.project-space .el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: var(--primary) !important;
+}
+.project-space .el-input.is-active .el-input__inner,
+.project-space .el-input__inner:focus {
+  border-color: var(--primary) !important;
+}
+.project-space .el-select .el-input.is-focus .el-input__inner {
+  border-color: var(--primary) !important;
+}
+.project-space .el-tag--primary {
+  background-color: var(--primary-light) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+.project-space .el-steps .el-step__head.is-finish,
+.project-space .el-steps .el-step__title.is-finish {
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.project-space .header {
+  border-bottom: 2px solid var(--primary) !important;
+}
+.project-space .app-name a i {
+  color: var(--primary) !important;
+}
+.project-space .footer-logo i,
+.project-space .footer-logo span {
+  color: var(--primary) !important;
+}
+.project-space .el-loading-spinner .path {
+  stroke: var(--primary) !important;
+}
+.project-space .el-dropdown-menu__item:not(.is-disabled):hover {
+  background-color: var(--primary-light) !important;
+  color: var(--primary) !important;
+}
+.project-space .el-cascader-menu__item.is-active {
+  color: var(--primary) !important;
+}
+.project-space .el-table__body tr.current-row > td {
+  background-color: var(--primary-light) !important;
+}
+.project-space .el-menu-item.is-active {
+  color: var(--primary) !important;
+  border-left: 3px solid var(--primary) !important;
+}
+.project-space .el-menu-item:hover {
+  background-color: var(--primary-light) !important;
+}
+.project-space .item-card .item-tag {
+  background: rgba(74, 144, 217, 0.85) !important;
+}
+.project-space .highlight {
+  color: var(--primary) !important;
+}
+.project-space .page-header {
+  background: linear-gradient(to right, var(--primary-light), #FFF) !important;
+}
+.project-space .el-avatar {
+  border: 2px solid var(--primary-light) !important;
+}
